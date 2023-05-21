@@ -1,0 +1,56 @@
+body {
+   font-family: 'Arima', cursive;
+   font-family: 'Roboto', sans-serif;  
+    background-image: url(images/pexels-andrew-neel-2859169.jpg);
+    background-position: center ;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height: 100px;
+
+  
+}
+
+header {
+  background:rgba(163, 89, 44,0.9);
+
+}
+
+header .container h2 {
+  text-shadow: 2px 2px 2px white;
+  font-family: 'Arima', cursive;
+  text-decoration: none;
+}
+
+header .container .links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 8px;
+  font-size: 1.1em;
+  font-family: 'Arima', cursive;
+  cursor: pointer;
+}
+
+header .container .links a:hover {
+  color: rgb(144, 168, 160);
+}
+.searchi{
+  color:rgba(163, 89, 44,0.9); 
+
+}
+
+
+
+main .container div .neighbor:hover {
+  text-decoration: underline;
+}
+.box{
+  background:rgba(163, 89, 44,0.5); ;
+
+}
+
+
+@media (max-width:768px) {
+  main {
+      background-attachment: scroll;
+  }
+}
